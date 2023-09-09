@@ -33,6 +33,8 @@
     text-wrap:nowrap;
     text-align: center;
     font-family: 'Brush Script MT', cursive;
+    border-bottom:solid;
+    border-color:rgb(53, 34, 34);
 }
 
 .login-button{
@@ -47,7 +49,6 @@
 
 .login-button :hover{
     cursor: pointer;
-    background-color: rgb(20, 131, 223);
 }
 
 .button{
