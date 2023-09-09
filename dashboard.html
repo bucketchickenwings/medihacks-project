@@ -6,11 +6,9 @@
     <body>
         <div class="body">
             <div class="topnav">
-                <div class="topnav_title" id="homeButton">
-                    <button class="default_title">
-                        Lorem 
-                    </button>
-                     
+                <div class="default_title" id="homeButton">
+                    Lorem 
+
                 </div>
                 <div class="topnav_element" id="userButton">
                     <button class="default_button">
@@ -24,12 +22,6 @@
                     </buton>
                      
                 </div>
-                <div class="search-container">
-                    <form action="/action_page.php">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit" class="search_button"> search </button>
-                    </form>
-                  </div>
 
 
             
@@ -39,7 +31,7 @@
                 <div class="icons">
                     profile
                 </div>
-                <div class="icons">
+                <div class="icons" id="therapists">
                     appointment
                 </div>
                 <div class="icons">
@@ -73,14 +65,10 @@
         
 
         <script>
-            const homeButton = document.getElementById('homeButton');
             const userButton = document.getElementById('userButton');
             const aboutUsButton = document.getElementById('aboutUsButton');
-
-            homeButton.addEventListener('click', function() {
-        
-                window.open('dashboard.html', '_self');
-            });
+            const therapistsButton = document.getElementById('therapists');
+    
             userButton.addEventListener('click', function() {
                     
                 window.open('user_profile.html', '_self');
@@ -88,6 +76,10 @@
             aboutUsButton.addEventListener('click', function() {
                     
                 window.open('aboutUs.html', '_self');
+            });
+            therapistsButton.addEventListener('click', function() {
+                    
+                    window.open('appointments.html', '_self');
             });
 
             document.addEventListener('DOMContentLoaded', function() {
