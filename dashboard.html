@@ -95,15 +95,13 @@
                 const addButton = document.getElementById('addButton');
                 const container = document.getElementById('container');
                 const taskInput = document.getElementById('taskInput');
+                const maxCounter=9;
                 const counter= 0;
 
                 addButton.addEventListener('click', function() {
                 // Create a new checkbox input element
-                if (counter==8){
-                        const message = document.createElement('p');
-                        message.textContent= "Can't add more to-dos"
-                        container.appendChild(message);
-                    }
+                if (counter < maxCounter) {
+
                     const newCheckbox = document.createElement('input');
 
                     const addText = taskInput.value;
@@ -119,7 +117,12 @@
                     // Append the checkbox and label to the container
                     container.appendChild(newCheckbox);
                     container.appendChild(label);
+                    
                     counter++;
+                }else {
+                    alert('Maximum number of elements reached.');
+
+                }
             });
                 
         });
