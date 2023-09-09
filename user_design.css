@@ -18,7 +18,7 @@
     background-color: rgba(75, 175, 221, 0);
     font-family:Bookman, URW Bookman L, serif;
     font-weight: bold;
-    color:rgb(34, 22, 22);
+    color:rgb(160, 199, 199); 
 }
 .inner{
     display: flex;
@@ -34,7 +34,7 @@
     text-align: center;
     font-family: 'Brush Script MT', cursive;
     border-bottom:solid;
-    border-color:rgb(53, 34, 34);
+    border-color:rgb(160, 199, 199);
 }
 
 .login-button{
