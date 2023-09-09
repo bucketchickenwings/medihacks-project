@@ -21,5 +21,7 @@ background-color: rgb(75, 175, 221);
     flex-direction: column;
 }
 .login{
-    
+size: 300px;
+padding:50px;
+
 }
