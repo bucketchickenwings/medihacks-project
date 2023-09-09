@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="profile.css">
     </head>
     <body>
+        <div class="topnav">
+            <div class="topnav_title" id="homeButton">
+                <button class="default_title">
+                    Lorem 
+                </button>
+                 
+            </div>
+            <div class="topnav_element" id="userButton">
+                <button class="default_button">
+                    profile
+                </button>
+                 
+            </div>
+            <div class="topnav_element" id="aboutUsButton">
+                <buton class="default_button">
+                    About Us 
+                </buton>
+                 
+            </div>
+            <div>2</div>
+        </div>
+
         Profile
+        create your user profile to chat with others!
+        <input type="text" placeholder="firstName" name="search">
+        <input type="text" placeholder="lastName" name="search">
+        <input type="text" placeholder="Age" name="search">
+        <input type="text" placeholder="Gender" name="search">
+        <button> submit</button>
+
+        <script>
+            const homeButton = document.getElementById('homeButton');
+            const userButton = document.getElementById('userButton');
+            const aboutUsButton = document.getElementById('aboutUsButton');
+
+            homeButton.addEventListener('click', function() {
+        
+                window.open('dashboard.html', '_self');
+            });
+            userButton.addEventListener('click', function() {
+                    
+                window.open('user_profile.html', '_self');
+            });
+            aboutUsButton.addEventListener('click', function() {
+                    
+                window.open('aboutUs.html', '_self');
+            });
+        </script>
     </body>
 </html>
