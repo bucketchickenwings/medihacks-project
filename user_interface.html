@@ -12,8 +12,7 @@
 
                     <div class="login">
                         <p class="login-text">Login page</p>
-                    </div>
-                    <div class="button">
+                    <div class="button" id="myLoginButton">
                         <button class="login-button">
                             <p>login</p>
                         </button>
@@ -25,6 +24,14 @@
            
         </div>
         
+        <script>
+            const myLloginButton = document.getElementById('myLoginButton');
+
+            myLoginButton.addEventListener('click', function() {
+                // Open another HTML page  in a new tab or window
+                window.open('dashboard.html', '_blank');
+            });
+        </script>
     </body>
     
 </html>
