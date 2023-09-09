@@ -2,11 +2,15 @@
     float: left;
     display: flex;
     padding:0px;
-    background-color: rgb(102, 207, 207);
+    background-color: rgb(50, 131, 207);
     overflow: hidden;
     flex-direction: row;
     width: 100%;
     border:solid; 
+}
+
+.default_title{
+  color: white
 }
 
 .topnav_element{
