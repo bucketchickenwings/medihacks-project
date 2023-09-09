@@ -3,7 +3,7 @@
 .body{
     display:flex;
     padding: 10px;
-    background-color: rgb(60, 161, 161);
+    background-color: rgb(50, 131, 207);
     justify-content: center;
     align-content: center;
     width:100%;
@@ -16,35 +16,36 @@
     margin: 5px;
     padding: 50px;
     background-color: rgba(75, 175, 221, 0);
-    font-family:Bookman, URW Bookman L, serif;
+    font-family:'Brush Script MT', cursive;
     font-weight: bold;
-    color:rgb(160, 199, 199); 
+    color:rgb(255, 255, 255); 
 }
 .inner{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(245, 245, 220, 0);
+    background-color: rgba(255, 255, 77, 0);
     padding: 0px; 
 }
-.login-text{
+.description{
     padding:25px;
-    font-size: 40px;
+    font-size: 20px;
     text-wrap:nowrap;
     text-align: center;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Bradley Hand', cursive;
     border-bottom:solid;
     border-color:rgb(160, 199, 199);
 }
 
 .login-button{
     width: 200px;
-    background-color:rgb(65, 170, 255);
+    background-color:rgb(0, 90, 126);
     color: white;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 20px;
     height:max-content; 
     border:none;
+    font-family: "";
 }
 
 .login-button :hover{
@@ -53,16 +54,18 @@
 
 .button{
 width:200px;
+border-radius: 50px;
+align-self: center;
 }
 
 .title_background1{
-    background-color: rgb(26, 102, 102);
-    border-radius: 30px;
+    background-color: rgb(88, 132, 255);
+    border-radius: 50px;
     padding:20px;
 }
 
 .title_background2{
-    background-color: rgb(65, 180, 180);
-    background-image: linear-gradient(rgb(65, 180, 180), rgb(26, 102, 102));
-    border-radius: 10px;
+    background-color: rgb(140, 222, 255);
+    background-image: linear-gradient(rgb(130, 255, 255), rgb(0, 102, 219));
+    border-radius: 50px;
 }
