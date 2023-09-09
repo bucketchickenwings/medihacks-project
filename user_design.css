@@ -1,27 +1,31 @@
-.login{
-    background-color:rgb(222, 203, 240);
-    font-size: 90px;
-    font-family: 'Brush Script MT', cursive;
-}
-
 .body{
-display:absolute;
-top: 50%;
-padding:100px;
-background-color: bisque;
+    display:absolute;
+    top: 50%;
+    padding:100px;
+    background-color: bisque;
+    text-align: center;
 }
 .title{
-text-wrap: nowrap;
-font-size: 200px;
-margin: 50px;
-background-color: rgb(75, 175, 221);
+    text-wrap: nowrap;
+    font-size: 200px;
+    margin: 50px;
+    background-color: rgb(75, 175, 221);
 }
 .inner{
     display: flex;
     flex-direction: column;
 }
 .login{
-size: 300px;
-padding:50px;
+    width: 100px;
+    padding:50px;
+    font-size: 30px;
+    text-wrap:nowrap;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.login-button{
+    width: 50px;
+    color:burlywood;
 
 }
