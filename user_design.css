@@ -27,10 +27,24 @@
 }
 
 .login-button{
-    width: 50px;
+    width: 100px;
     color:burlywood;
 
 }
+
+.login-button :hover{
+    cursor: pointer;
+    outline-color: white;
+    outline: solid;
+    outline-width: 1px;
+    border-radius: 2px;
+}
+
+.button{
+    background-color: black;
+    width:100px;
+}
+
 .login{
     margin:50px;
 }
