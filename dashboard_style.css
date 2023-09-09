@@ -10,6 +10,10 @@
     box-shadow: 2px 3px 5px 2px rgb(50, 131, 207);
 }
 
+.default_title{
+  color: white
+}
+
 .topnav_element{
     text-align: center;
     margin-top: 0px;
