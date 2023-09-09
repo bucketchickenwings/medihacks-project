@@ -2,12 +2,12 @@
     float: left;
     display: flex;
     padding:0px;
-    background-color: rgb(50, 131, 207);
+    background-color: rgba(50, 131, 207, 0);
     overflow: hidden;
     flex-direction: row;
     width: 100%;
     border:none; 
-    box-shadow: 2px 3px 5px 2px rgb(50, 131, 207);
+    box-shadow: 10px 5px 5px 5px rgb(50, 131, 207);
 }
 
 .default_title{
@@ -92,20 +92,20 @@
     padding:20px; 
     margin: 100px;
     font-size: 100px;
-    font-family:'Brush Script MT';
+    font-family:myFirstFont;
     width: 600px;
  
 
 }
 
 .side_bar{
-  background-color:rgb(50, 131, 207);
+  background-color:rgba(50, 131, 207, 0);
   width:115px;
   height:1150px;
   flex-direction:column;
   justify-content: space-evenly;
   float:left;
-  box-shadow: 2px 3px 5px 2px rgb(50, 131, 207);
+  box-shadow: 5px 5px 10px 5px rgb(50, 131, 207);
 }
 
 .body{
@@ -115,21 +115,27 @@
   height:1400px;
   float:top; 
   overflow: hidden;
-  background-image: linear-gradient(rgb(152, 221, 253), rgb(50, 131, 207));
+  background-image: linear-gradient(rgb(152, 221, 253), rgb(5, 80, 150));
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(AntipastoPro_trial.ttf);
+}
 .icons{
   border:solid;
   height: 50px;
   margin-top:100px;
   margin-bottom:100px;
   background-color: rgb(140, 222, 255);
-  color:rgb(28, 160, 212);
+  color:rgb(255, 255, 255);
   font-weight: bold;
   border-radius:10px;
   padding-top:10px;
   padding-left:10px;
-  border-color: rgb(90, 206, 252);
+  border-color: rgba(90, 206, 252, 0);
+  font-family: myFirstFont;
+  text-shadow: 2px 2px rgba(100, 100, 100, 0.842);
 }
 
 .testing{
@@ -190,4 +196,19 @@ flex-direction: row;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+}
+
+.dashboard_style{
+  border-right:solid;
+  border-top:solid;
+  border-bottom:solid;
+  border-color:rgba(255, 255, 255, 0.788);
+  border-radius: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  box-shadow: 3px 3px 5px 3px rgba(77, 76, 76, 0.788);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(0, 0, 0);
 }
