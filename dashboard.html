@@ -5,90 +5,99 @@
     </head>
     <body>
         <div class="body">
-            <div class="topnav">
-                <div class="default_title" id="homeButton">
-                    Lorem 
-
-                </div>
-                <div class="topnav_element" id="userButton">
-                    <button class="default_button">
+            <div class="body1">
+                <!-- side nav bar-->
+                <div class="side_bar">
+                    <div class="icons">
                         Profile
-                    </button>
-                     
-                </div>
-                <div class="topnav_element" id="aboutUsButton">
-                    <button class="default_button">
-                        About Us 
-                    </button>
-                     
+                    </div>
+                    <div class="icons">
+                        Home
+                    </div>
+                    <div class="icons" id="therapists">
+                    Appointments
+                    </div>
+                    <div class="icons">
+                        Logout
+                    </div>
                 </div>
 
+                <div class="body2">
+                    <div class="topnav">
+                        <div class="default_title" id="homeButton">
+                            Lorem 
 
-            
-            </div>
-            <!-- side nav bar-->
-            <div class="side_bar">
-                <div class="icons">
-                    Profile
-                </div>
-                <div class="icons">
-                    Home
-                </div>
-                <div class="icons" id="therapists">
-                   Appointments
-                </div>
-                <div class="icons">
-                    Logout
-                </div>
-            </div>
-    
-            <!--checklist-->
-            <div class="whole-containter">
-                <div class="whole">
-                    <p class="dashboard_style">Dashboard</p>
-                    
-                    <div class="box">
-                        <div>
-                            To-Do List
                         </div>
-                        <div class= "testing" id="container">
+
+                        <div class="topnav_element" id="userButton">
+                            <button class="default_button">
+                                Profile
+                            </button>
+                                
                         </div>
-                        <div id="addButton" class="addButton">
-                            <button class="addButton">
-                                add
+                        <div class="topnav_element" id="aboutUsButton">
+                            <button class="default_button">
+                                About Us 
                             </button>
                         </div>
-                        <div>
-                            <input type="text" id="taskInput" placeholder="to-do" class="text-bar">
+                                
+                    </div>
+
+                    
+                    
+            
+                    <!--checklist-->
+                    <div class="whole-containter">
+                        <div class="whole">
+                            <div class="dashboard_style">
+                                <div class="dashboard_style">
+                                Dashboard
+                                </div>
+                            </div>
+                            
+                            <div class="box">
+                                <div>
+                                    <p class="font"> To-Do List</p>
+                                </div>
+                                <div class= "testing" id="container">
+                                </div>
+                                <div id="addButton" class="addButton">
+                                    <button class="addButton">
+                                        add
+                                    </button>
+                                </div>
+                                <div>
+                                    <input type="text" id="taskInput" placeholder="to-do.." class="text-bar">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+
+                            <p> Personal goals</p>
+
+                            <div class="slidecontainer">
+                                <input type="text">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+            
+                            <div class="slidecontainer">
+                                <input type="text">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+            
+                            <div class="slidecontainer">
+                                <input type="text">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="slide">
-
-                    <p> Personal goals</p>
-
-                    <div class="slidecontainer">
-                        <input type="text">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    </div>
-    
-                    <div class="slidecontainer">
-                        <input type="text">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    </div>
-    
-                    <div class="slidecontainer">
-                        <input type="text">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    </div>
-                </div>
+                    
             </div>
             
-            
-        </div>
         
-
+        </div>
         <script>
             const userButton = document.getElementById('userButton');
             const aboutUsButton = document.getElementById('aboutUsButton');
