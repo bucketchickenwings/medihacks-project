@@ -11,13 +11,13 @@
                     <div class="icons">
                         Profile
                     </div>
-                    <div class="icons">
+                    <div class="icons" id="homeButton">
                         Home
                     </div>
                     <div class="icons" id="therapists">
                         Appointments
                     </div>
-                    <div class="icons">
+                    <div class="icons" id="logoutButton">
                         Logout
                     </div>
                 </div>
@@ -87,6 +87,28 @@
             </div>
 
         </div>
-        
+        <script>
+             const userButton = document.getElementById('userButton');
+            const aboutUsButton = document.getElementById('aboutUsButton');
+            const homeButton = document.getElementById('homeButton');
+            const logoutButton = document.getElementById('logoutButton');
+    
+            userButton.addEventListener('click', function() {
+                    
+                window.open('user_profile.html', '_self');
+            });
+            aboutUsButton.addEventListener('click', function() {
+                    
+                window.open('aboutUs.html', '_self');
+            });
+            homeButton.addEventListener('click', function() {
+                    
+                    window.open('dashboard.html', '_self');
+            });
+            logoutButton.addEventListener('click', function() {
+                    
+                    window.open('user_interface.html', '_self');
+            });
+        </script>
     </body>
 </html>
