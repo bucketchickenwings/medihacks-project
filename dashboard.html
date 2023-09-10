@@ -5,7 +5,7 @@
         <title>Lorem</title>
     </head>
     <body>
-        <div class="body">
+        <div class="body">  
             <div class="body1">
                 <!-- side nav bar-->
                 <div class="side_bar">
@@ -105,6 +105,12 @@
             const therapistsButton = document.getElementById('therapists');
             const homeButton = document.getElementById('homeButton');
             const logoutButton = document.getElementById('logoutButton');
+
+            const addButton = document.getElementById('addButton');
+            const container = document.getElementById('container');
+            const taskInput = document.getElementById('taskInput');
+            const maxCounter=9;
+            const counter= 0;
     
             userButton.addEventListener('click', function() {
                     
@@ -130,30 +136,26 @@
 
             document.addEventListener('DOMContentLoaded', function() {
                 // Get references to the button and container elements
-                const addButton = document.getElementById('addButton');
-                const container = document.getElementById('container');
-                const taskInput = document.getElementById('taskInput');
-                const maxCounter=9;
-                const counter= 0;
+           
 
                 addButton.addEventListener('click', function() {
                 // Create a new checkbox input element
                 if (counter < maxCounter) {
 
-                    const newCheckbox = document.createElement('input');
+                    const Checkbox = document.createElement('input');
 
                     const addText = taskInput.value;
 
-                    newCheckbox.type = 'checkbox'; // Set the input type to 'checkbox'
-                    newCheckbox.id = 'newCheckbox'; // Set a unique ID for the checkbox 
-                    newCheckbox.className = 'list';
+                    Checkbox.type = 'checkbox'; // Set the input type to 'checkbox'
+                    Checkbox.id = 'newCheckbox'; // Set a unique ID for the checkbox 
+                    Checkbox.className = 'list';
 
                     // Create a label element for the checkbox 
                     const label = document.createElement('label');
                     label.textContent = addText;
 
                     // Append the checkbox and label to the container
-                    container.appendChild(newCheckbox);
+                    container.appendChild(Checkbox);
                     container.appendChild(label);
                     
                     counter++;
@@ -161,6 +163,8 @@
                     alert('Maximum number of elements reached.');
 
                 }
+
+
             });
                 
         });
