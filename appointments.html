@@ -51,9 +51,10 @@
                     <p class="description">Hours: Mon-Sat,  9AM-6PM</p>
                     <p>Sessions Ranging from 1 - 2 Hours</p>
                     <p>*Does not accept Insurance*</p>
-                    <button class="appButton1">
+                    <button class="appButton1" id="appbutton">
                         Make Appointment
                     </button>
+
                     <button class="contact1">
                         Contact
                     </button>
@@ -67,7 +68,7 @@
                     <p class="description">Hours: Mon-Fri, 11AM-7PM</p>
                     <p>Sessions Ranging from 1 - 3 Hours</p>
                     <p>*Accepts most Insurances*</p>
-                    <button class="appButton2">
+                    <button class="appButton2" id="appButton1">
                         Make Appointment
                     </button>
                     <button class="contact2">
@@ -99,18 +100,7 @@
                     
                     window.open('user_interface.html', '_self');
             });
-
-            appButton2.addEventListener("click", function () {
-                myPopup.classList.add("show");
-            });
-            closePopup.addEventListener("click", function () {
-                myPopup.classList.remove("show");
-            });
-            window.addEventListener("click", function (event) {
-                if (event.target == myPopup) {
-                    myPopup.classList.remove("show");
-                }
-            });
+            
         </script>
     </body>
 </html>
