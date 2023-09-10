@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="dashboard_style.css">
+        <link rel="stylesheet" href="aboutUs.css">
+        <title>Lorem</title>
     </head>
     <body>
-        <div class="topnav">
-            <div class="topnav_title" id="homeButton">
-                <button class="default_title">
-                    Lorem 
-                </button>
-                 
-            </div>
-            <div class="topnav_element" id="userButton">
-                <button class="default_button">
-                    profile
-                </button>
-                 
-            </div>
-            <div class="topnav_element" id="aboutUsButton">
-                <buton class="default_button">
-                    About Us 
-                </buton>
-                 
-            </div>
+        <div class="body">
+            <div class="body1">
+                <!-- side nav bar-->
+                <div class="side_bar">
+                    <div class="icons">
+                        Profile
+                    </div>
+                    <div class="icons" id="homeButton">
+                        Home
+                    </div>
+                    <div class="icons" id="therapists">
+                        Appointments
+                    </div>
+                    <div class="icons" id="logoutButton">
+                        Logout
+                    </div>
+                </div>
 
-        </div>
-        <div>
-            about us- nothing yet
-        </div>
+                <div class="body2">
+                    <div class="topnav">
+                        <div class="default_title" id="homeButton">
+                            Lorem 
+
+                        </div>
+
+                        <div class="topnav_element" id="userButton">
+                            <button class="default_button">
+                                Profile
+                            </button>
+                                
+                        </div>
+                        <div class="topnav_element" id="aboutUsButton">
+                            <button class="default_button">
+                                About Us 
+                            </button>
+                        </div>
+                                
+                    </div>
+                    <div class="description">
+                        This project was created for the Medihacks hackathon. We are two sophmores in highschool (Grace Wang and Niki Yuan).
+                        The idea behind this software is to give access to individuals who cannot visit a therapist for any reason. 
+                        You can contact a therapist using this software and remain in the safety of your own home.
+                    </div>  
+                </div> 
+                 
+            </div>
+        </div>            
 
         <script>
-            const homeButton = document.getElementById('homeButton');
             const userButton = document.getElementById('userButton');
             const aboutUsButton = document.getElementById('aboutUsButton');
-
-            homeButton.addEventListener('click', function() {
-        
-                window.open('dashboard.html', '_self');
-            });
+            const therapistsButton = document.getElementById('therapists');
+            const homeButton = document.getElementById('homeButton');
+            const logoutButton = document.getElementById('logoutButton');
+    
             userButton.addEventListener('click', function() {
                     
                 window.open('user_profile.html', '_self');
@@ -46,6 +68,19 @@
                     
                 window.open('aboutUs.html', '_self');
             });
+            therapistsButton.addEventListener('click', function() {
+                    
+                    window.open('appointments.html', '_self');
+            });
+            homeButton.addEventListener('click', function() {
+                    
+                    window.open('dashboard.html', '_self');
+            });
+            logoutButton.addEventListener('click', function() {
+                    
+                    window.open('user_interface.html', '_self');
+            });
+            
         </script>
     </body>
 </html>

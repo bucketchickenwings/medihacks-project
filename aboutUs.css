@@ -1,0 +1,221 @@
+.topnav{
+    position:absolute;
+    top: 100px;
+    left: 150px;
+    width:500px;
+    border:none;
+    display: flex;
+    padding:0px;
+    background-color: rgb(255, 255, 255);    overflow: hidden;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px 3px rgba(104, 104, 104, 0.459);
+  }
+  
+  .default_title{
+    color: white
+  }
+  
+  .topnav_element{
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 25px;
+      padding-bottom: 5px;
+      width:90px;
+      text-wrap: nowrap;
+      color:rgb(0, 0, 0);
+      
+  }
+  
+  
+  .topnav :hover {
+      background-color: rgb(194, 233, 255);
+      color: black;
+    }
+  
+    
+
+  .default_button{
+      background-color: #dddddd00;
+      border: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 17px;
+  }
+  
+  .default_title{
+      text-align: center;
+      background-color: #dddddd00;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width:150px;
+      text-wrap: nowrap;
+      font-size: 50px;
+      border: none;
+      font-family:'Brush Script MT', cursive;
+      color: rgb(0, 0, 0);
+  }
+  
+  
+  .options{
+      border:solid;
+      width: 100px;
+      background-color: aqua;
+      height:100px;
+      margin:5px;
+  }
+  
+  
+  .side_bar{
+    background-color:rgb(2, 73, 139);
+    width:115px;
+    height:1000px;
+    flex-direction:column;
+    justify-content: space-evenly;
+    float:left;
+    box-shadow: 5px 5px 10px 5px rgb(77, 142, 202);
+  }
+  
+  .body{
+    position: relative;
+    background-image: linear-gradient(rgb(156, 224, 255),rgb(27, 123, 212));
+    display: static;
+    width:100%;
+    height:1400px;
+    float:top; 
+    overflow: hidden;
+  }
+  
+  .body1{
+    width:2200px;
+    position: absolute;
+    top: 100px;
+    right:150px;
+    left:150px;
+    height: 1100px;
+    background-color:rgb(134, 206, 236);
+  }
+  
+  .body2{
+    width:2200px;
+    box-shadow: 5px 5px 10px 5px rgb(77, 142, 202);
+    position: absolute;
+    top: 0px;
+    left:120px;
+    border-radius: 10px;
+    height: 1000px;
+    background-color:rgb(213, 242, 255); 
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(AntipastoPro_trial.ttf);
+  }
+  .icons{
+    border:solid;
+    height: 50px;
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color: rgba(140, 222, 255, 0);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius:10px;
+    padding-top:10px;
+    padding-left:10px;
+    border-color: rgba(90, 206, 252, 0);
+    font-family: Bradley hand;
+    text-shadow: 2px 2px rgba(100, 100, 100, 0.842);
+  }
+
+  .icons :hover{
+    background-color: rgb(194, 233, 255);
+    color: black;
+}
+  
+  .testing{
+    height: 180px;
+    border:solid;
+    width:400px;
+    position: absolute;
+  
+  }
+
+  
+  .dashboard_style{
+    position: absolute;
+    right: 480px;
+    border-right:solid;
+    border-top:solid;
+    border-bottom:solid;
+    border-color:rgba(255, 255, 255, 0.788);
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-family:bradley hand;
+  }
+  .dashboard_style{
+    border-top:solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: rgb(12, 39, 73);
+    position:absolute;
+    height: 50px;
+    width: 100px;
+    
+  }
+
+  .submit{
+    width: 700px;
+    height: 50px;
+    font-family: myFirstFont;
+    font-size: 30px;
+    background-color: rgb(16, 157, 238);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  .font{
+    position:absolute;
+    top: 0px;
+    width:350px;
+    height: 40px;
+    padding: 20px;
+    border-radius:8px;
+    background-color: rgb(194, 233, 255);
+  }
+
+  .profile{
+    position:absolute;
+    border:solid;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: space-evenly;
+    height: 300px;
+    font-family: myFirstFont;
+    font-size:30px;
+    margin-left: 50px;
+    padding: 50px;
+    border-color: rgb(0, 67, 94); 
+    border-style: dashed;
+  }
+
+  .description{
+    border:none;
+    font-family: myFirstFont;
+    font-size: 30px; 
+    position: absolute;
+    top: 300px;
+    padding-left:20px;
+    width:1000px;
+  }
