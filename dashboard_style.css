@@ -32,9 +32,9 @@
 
 
 .topnav :hover {
-    background-color: #ddd;
-    color: black;
-  }
+  background-color: rgb(194, 233, 255);
+  color: black;
+}
 
 .default_button{
     background-color: #dddddd00;
