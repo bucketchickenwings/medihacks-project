@@ -45,6 +45,10 @@
       font-weight: bold;
       font-size: 17px;
   }
+
+  .default_button:hover{
+    cursor: pointer;
+  }
   
   .default_title{
       text-align: center;
@@ -134,9 +138,9 @@
     text-shadow: 2px 2px rgba(100, 100, 100, 0.842);
   }
 
-  .icons :hover{
+  .icons:hover{
     background-color: rgb(194, 233, 255);
-    color: black;
+    cursor: pointer;
 }
   
   .testing{
@@ -182,6 +186,10 @@
     font-weight: bold;
     border: none;
     border-radius: 5px;
+  }
+
+  .submit:hover{
+    cursor: pointer;
   }
   .font{
     position:absolute;
