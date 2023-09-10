@@ -301,3 +301,19 @@
     height:50px; 
     border:none;
 }
+
+.appButton1:hover{
+    background-color: deepskyblue;
+}
+
+.appButton2:hover{
+    background-color: deepskyblue;
+}
+
+.contact1:hover{
+    background-color: deepskyblue;
+}
+
+.contact2:hover{
+    background-color: deepskyblue;
+}

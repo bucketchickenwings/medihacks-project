@@ -43,17 +43,6 @@
                     </div>
                                 
                 </div>
-            <div class="body3">
-                <div class="searchFilter" id="filterButtons">
-                     <button class="none" onclick="filterSelection('all')">Show all</button>
-                     <button class="women" onclick="filterSelection('women')">Women</button>
-                     <button class="men" onclick="filterSelection('Men')">Men</button>
-                     <button class="individual" onclick="filterSelection('individual ')">Individual</button>
-                     <button class="group" onclick="filterSelection('group')">Couples/Family</button>
-                     <button class="child" onclick="filterSelection('child')">Child</button>
-                     <button class="adult" onclick="filterSelection('adult')">Adult</button>
-                </div>
-            </div>
 
             <div class="body4">
                 <div class="profile1">
@@ -109,6 +98,18 @@
             logoutButton.addEventListener('click', function() {
                     
                     window.open('user_interface.html', '_self');
+            });
+
+            appButton2.addEventListener("click", function () {
+                myPopup.classList.add("show");
+            });
+            closePopup.addEventListener("click", function () {
+                myPopup.classList.remove("show");
+            });
+            window.addEventListener("click", function (event) {
+                if (event.target == myPopup) {
+                    myPopup.classList.remove("show");
+                }
             });
         </script>
     </body>
