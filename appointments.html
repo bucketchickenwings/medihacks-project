@@ -1,55 +1,92 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="appointments.css">
     </head>
     <body>
-        <div class="topnav">
-            <div class="default_title" id="homeButton">
-                Lorem 
+        <div class="body">
+            <div class="body1">
+                <!-- side nav bar-->
+                <div class="side_bar">
+                    <div class="icons">
+                        Profile
+                    </div>
+                    <div class="icons">
+                        Home
+                    </div>
+                    <div class="icons" id="therapists">
+                        Appointments
+                    </div>
+                    <div class="icons">
+                        Logout
+                    </div>
+                </div>
+            
+            <div class="body2">
+                <div class="topnav">
+                    <div class="default_title" id="homeButton">
+                        Lorem 
 
+                    </div>
+
+                    <div class="topnav_element" id="userButton">
+                        <button class="default_button">
+                            Profile
+                        </button>
+                                
+                    </div>
+                    <div class="topnav_element" id="aboutUsButton">
+                        <button class="default_button">
+                            About Us 
+                        </button>
+                    </div>
+                                
+                </div>
+            <div class="body3">
+                <div class="searchFilter" id="filterButtons">
+                     <button class="none" onclick="filterSelection('all')">Show all</button>
+                     <button class="women" onclick="filterSelection('women')">Women</button>
+                     <button class="men" onclick="filterSelection('Men')">Men</button>
+                     <button class="individual" onclick="filterSelection('individual ')">Individual</button>
+                     <button class="group" onclick="filterSelection('group')">Couples/Family</button>
+                     <button class="child" onclick="filterSelection('child')">Child</button>
+                     <button class="adult" onclick="filterSelection('adult')">Adult</button>
+                </div>
             </div>
-            <div class="topnav_element" id="userButton">
-                <button class="default_button">
-                    Profile
-                </button>
-                 
+
+            <div class="body4">
+                <div class="profile1">
+                    <p1 class="name">Jane Doe | Therapist | <b>Rating 4.7/5</b></p1>
+                    <p class="description">Certified Therapist in Couples and Individual Therapy, as well as for Children and Adolescents.</p>
+                    <p class="description">Hours: Mon-Sat,  9AM-6PM</p>
+                    <p>Sessions Ranging from 1 - 2 Hours</p>
+                    <p>*Does not accept Insurance*</p>
+                    <button class="appButton1">
+                        Make Appointment
+                    </button>
+                    <button class="contact1">
+                        Contact
+                    </button>
+                </div>
             </div>
-            <div class="topnav_element" id="aboutUsButton">
-                <button class="default_button">
-                    About Us 
-                </button>
-                 
+
+            <div class="body5">
+                <div class="profile2">
+                    <p1 class="name">John Doe | Psychologist | <b>Rating 4.0/5</b></p1>
+                    <p class="description">Certified Psychologist for both Adults and Children Individually.</p>
+                    <p class="description">Hours: Mon-Fri, 11AM-7PM</p>
+                    <p>Sessions Ranging from 1 - 3 Hours</p>
+                    <p>*Accepts most Insurances*</p>
+                    <button class="appButton2">
+                        Make Appointment
+                    </button>
+                    <button class="contact2">
+                        Contact
+                    </button>
+                </div>
             </div>
-        
-        <div class="searchfilter">
-            <div id="filterbuttons">
-                <button class="none" onclick="filterSelection('all')">Show all</button>
-                <button class="women" onclick="filterSelection('women')">Women</button>
-                <button class="men" onclick="filterSelection('animals')">Men</button>
-                <button class="individual" onclick="filterSelection('individual ')">Individual</button>
-                <button class="group" onclick="filterSelection('group')">Couples/Family</button>
-                <button class="child" onclick="filterSelection('child')">Child</button>
-                <button class="adult" onclick="filterSelection('adult')">Adult</button>
-              </div>
 
         </div>
         
-        </div>
-        <!-- side nav bar-->
-        <div class="side_bar">
-            <div class=""icons>
-                Profile
-            </div>
-            <div class="icons">
-                Home
-            </div>
-            <div class="icons" id="therapists">
-               Appointments
-            </div>
-            <div class="icons">
-                Logout
-            </div>
-        </div>
     </body>
 </html>
